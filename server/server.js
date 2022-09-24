@@ -28,7 +28,8 @@ require('./model/db');
 
 // Set API endpoint
 const apiRouter = require('./routers/api');
-app.use('/api', apiRouter);
+const loginRoutes = require('./routers/loginRoutes');
+app.use('/api', loginRoutes);
 
 if (process.env.NODE_ENV === 'production') {
   // Serve static revved files with uncoditional cache

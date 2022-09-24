@@ -12,6 +12,7 @@ import Build from "./pages/Build";
 import Integrate from "./pages/Integrate";
 import NotFound from "./pages/NotFound";
 import Scale from "./pages/Scale";
+import Signup from './pages/Signup'
 
 const App = () => {
     return (
@@ -27,6 +28,7 @@ const App = () => {
 
             <Routes>
                 <Route path="/" element={<Auth />} />
+                <Route path='/signup' element={<Signup />} />
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/build" element={<Build />} />
                 <Route path="/integrate" element={<Integrate />} />
