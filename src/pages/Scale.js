@@ -23,10 +23,10 @@ const Scale = () => {
 
         <div className="">
 
-<Helmet>
+            <Helmet>
                 <title>Scale :: Relcanonical</title>
                 <meta name="description" content="Relcanonical’s Enterprise SEO Platform can help your site save 50x bigger, grow 3x larger, & scale 99x faster in 6 months than hiring SEO agencies. Go Freemium!" />
-				</Helmet>
+            </Helmet>
 
             <div className="d-flex flex-column bg-light py-40">
 
